@@ -36,8 +36,7 @@ app.use('/api/fees', feeRoutes);
 app.use('/api/messages', messageRoutes);
 app.use('/api/announcements', announcementRoutes);
 
-// Error handling middleware
-app.use(errorHandler);
+
 
 console.log('Routes registered.');
 
